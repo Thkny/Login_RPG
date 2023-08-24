@@ -2,6 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
+@font-face {
+    font-family: 'rpg';
+    src: url(fonts/Middleearth-ao6m.ttf) format('truetype');
+}
 
 body {
     background-image: url(https://i.redd.it/yz6of53l6jyy.jpg);
@@ -9,75 +13,73 @@ body {
     background-size: cover;
 }
 
-nav {
+header {
     display: flex;
     padding: 30px;
     background-color: #ba9b69;
-    opacity: 80%;
-    border-bottom: 1px solid black;
+    opacity: 90%;
+    border-bottom: 1px solid #2f0d07;
+}
+header h1{
+    font-family: rpg;
+    color: #2f0d07;
 }
 
-article {
+form {
     margin: 2rem;
+    display: flex;
+    height: 28rem;
+    justify-content: center;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 450px;
-    padding: 16px;
-    border: 1px solid black;
-    background-color: #ba9b69;
-    box-shadow: 1px 1px 3px black;
-    opacity: 80%;
-    gap: 6px;
-}
-
-.content-box div,
-.content-box2 div,
-.content-box3 div,
-.content-box4 div {
-    background-color: aliceblue;
-    border: 1px solid black;
-    width: 100%;
-    height: 100%;
-}
-
-/*     !!!!! CAIXAS DAS DIVS     !!!!!*/
-.content-box {
-    display: flex;
-    flex-direction: column;
-    width: 35rem;
-    height: 18rem;
-    gap: 6px;
-}
-
-.content-box2 {
-    display: flex;
-    width: 35.1rem;
-    height: 9.6rem;
-    gap: 6px;
-}
-
-.content-box3 {
-    display: flex;
-    flex-direction: column;
-    width: 17rem;
-    height: 29rem;
-    gap: 6px;
-}
-
-.content-box4 {
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     width: 25rem;
-    height: 29rem;
-    gap: 6px;
+    height: 25rem;
+    padding: 16px;
+    border: 1px solid #2f0d07;
+    background-color: #ba9b69;
+    box-shadow: 1px 1px 3px #2f0d07;
+    opacity: 90%;
 }
-/*     !!!!! CAIXAS DAS DIVS     !!!!!*/
+.content .login p{
+    font-size: 14px;
+    font-family: rpg;
+}
+.content .login{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 35px;
+    height: 100%;
+    background-color: aliceblue;
+    border: 1px solid #2f0d07;
+}
 
-
+.content h2{
+    font-size: 30px;
+    text-align: center;
+    color: #2f0d07;
+    font-family: rpg;
+}
+.box div{
+    padding: 12px 10px;
+}
+.box div input{
+    background-color: aliceblue;
+    border: 0;
+    border-bottom: 1px solid #666;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 1px;
+}
+.box a{
+    text-decoration: none;
+}
 
 footer {
     color: aliceblue;
