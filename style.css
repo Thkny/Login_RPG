@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(https://i.redd.it/yz6of53l6jyy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    padding: 30px;
+    background-color: #ba9b69;
+    opacity: 80%;
+    border-bottom: 1px solid black;
+}
+
+article {
+    margin: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 450px;
+    padding: 16px;
+    border: 1px solid black;
+    background-color: #ba9b69;
+    box-shadow: 1px 1px 3px black;
+    opacity: 80%;
+    gap: 6px;
+}
+
+.content-box div,
+.content-box2 div,
+.content-box3 div,
+.content-box4 div {
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+/*     !!!!! CAIXAS DAS DIVS     !!!!!*/
+.content-box {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 18rem;
+    gap: 6px;
+}
+
+.content-box2 {
+    display: flex;
+    width: 35.1rem;
+    height: 9.6rem;
+    gap: 6px;
+}
+
+.content-box3 {
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 29rem;
+    gap: 6px;
+}
+
+.content-box4 {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 29rem;
+    gap: 6px;
+}
+/*     !!!!! CAIXAS DAS DIVS     !!!!!*/
+
+
+
+footer {
+    color: aliceblue;
+}
