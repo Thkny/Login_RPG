@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'rpg';
+    src: url(../fonts/Middleearth-ao6m.ttf) format('truetype');
+}
+
+body {
+    background-image: url(https://i.redd.it/yz6of53l6jyy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    background-color: #ba9b69;
+    opacity: 90%;
+    border-bottom: 1px solid #2f0d07;
+}
+
+header h1 {
+    font-family: rpg;
+    color: #2f0d07;
+}
+
+form {
+    margin: 2rem;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.content {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 30rem;
+    padding: 16px;
+    border: 1px solid #2f0d07;
+    background-color: #ba9b69;
+    box-shadow: 1px 1px 3px #2f0d07;
+    opacity: 90%;
+}
+
+.content .cadastro {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 35px;
+    height: 100%;
+    background-color: aliceblue;
+    border: 1px solid #2f0d07;
+}
+
+.content h2 {
+    font-size: 30px;
+    color: #2f0d07;
+    font-family: rpg;
+}
+
+.box,
+.box2,
+.box3 div {
+    padding: 12px 10px;
+}
+
+.box div input,
+.box2 div input,
+.box3 div input {
+    background-color: aliceblue;
+    border: 0;
+    border-bottom: 1px solid #666;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 1px;
+}
+
+.box .nome,
+.box2 .email,
+.box3 .senha {
+    gap: 60px;
+    display: flex;
+    width: 100%;
+}
+
+
+footer {
+    color: aliceblue;
+}
