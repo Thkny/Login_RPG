@@ -2,67 +2,64 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="functions.js"></script>
-    <title>Login-RPG</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="functions.js"></script>
+  <title>Login-RPG</title>
 </head>
 
 <body>
-    <header>
-            <h1>A INCREDIBLE RPG</h1>
-    </header>
+  <header>
+    <h1>A INCREDIBLE RPG</h1>
+  </header>
 
-    <main>
-        <section class="back-box">
-            <section class="content">
-                <h2>Cadastro</h2>
-                <form>
-                    <label for="nome">Nome completo *</label>
-                    <div class="box1">
-                        <input type="text" name="nome" id="nome" placeholder="Nome">
-                        <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
-                    </div>
+  <main>
+    <section class="back-box">
+      <section class="content">
+        <h2>Cadastro</h2>
+        <form>
+          <label for="nome">Nome completo *</label>
+          <div class="box1">
+            <input type="text" name="nome" id="nome" placeholder="Nome" />
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome" />
+          </div>
 
-                    <div class="box2">
-                        <label for="cpf">Cpf</label>
-                        <input type="number" name="cpf" id="cpf" placeholder="000.000.000-00">
-                    </div>
+          <div class="box2">
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" title="Digite o CPF no formato xxx.xxx.xxx-xx" placeholder="000.000.000.00" required />
+          </div>
+          <div class="box3">
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Exemplo@gmail.com" required />
+            </div>
+          </div>
 
-                    <div class="box3">
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Exemplo@gmail.com">
-                        </div>
-                    </div>
+          <div class="box4">
+            <label for="endereço">Endereço</label>
+            <input type="text" name="endereço" id="endereço" placeholder="Rua" />
+            <input type="text" name="endereço" id="endereço" placeholder="Complemento" />
 
-                    <div class="box4">
-                        <label for="endereço">Endereço</label>
-                        <input type="text" name="endereço" id="endereço" placeholder="Rua">
-                        <input type="text" name="endereço" id="endereço" placeholder="Complemento">
+            <div>
+              <input type="text" name="endereço" id="endereço" placeholder="Cidade" />
+              <input type="text" name="endereço" id="endereço" placeholder="Município" />
+            </div>
+            <input type="number" name="endereço" id="cep" placeholder="Cep: 000000-00" />
+          </div>
+          <button>enviar</button>
+        </form>
+      </section>
+    </section>
 
-                        <div>
-                            <input type="text" name="endereço" id="endereço" placeholder="Cidade">
-                            <input type="text" name="endereço" id="endereço" placeholder="Município">
-                        </div>
-                        <input type="number" name="endereço" id="cep" placeholder="Cep: 000000-00">
-                    </div>
+    <section class="back-box2">
+      <section class="content2">
+        <h2>Escolha sua classe</h2>
+      </section>
+    </section>
+  </main>
 
-
-                </form>
-            </section>
-        </section>
-
-        <section class="back-box2">
-            <section class="content2">
-                <h2>Escolha sua classe</h2>
-            </section>
-        </section>
-    </main>
-
-
-    <footer>&copy; 2015 Grupo Bem Paia</footer>
+  <footer>&copy; 2015 Grupo Bem Paia</footer>
 </body>
 
 </html>
