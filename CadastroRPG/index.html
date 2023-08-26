@@ -11,44 +11,58 @@
 
 <body>
     <header>
-        <div class="topvav">
             <h1>A INCREDIBLE RPG</h1>
-        </div>
     </header>
 
-    <form>
-        <div class="content">
-
-            <div class="cadastro">
-                <h2>CADASTRO</h2>
-
-                <div class="box">
-                    <div class="nome">
-                        <input type="text" placeholder="Nome">
-                        <input type="text" placeholder="Sobrenome">
+    <main>
+        <section class="back-box">
+            <section class="content">
+                <h2>Cadastro</h2>
+                <form>
+                    <label for="nome">Nome completo *</label>
+                    <div class="box1">
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
                     </div>
-                </div>
 
-                <div class="box2">
-                    <div class="email">
-                        <input type="email" placeholder="Email">
-                        <input type="email" placeholder="Confirmar Email">
+                    <div class="box2">
+                        <label for="cpf">Cpf</label>
+                        <input type="number" name="cpf" id="cpf" placeholder="000.000.000-00">
                     </div>
-                </div>
 
-                <div class="box3">
-                    <div class="senha">
-                        <input type="password" placeholder="Nova Senha">
-                        <input type="password" placeholder="Confirmar Senha">
+                    <div class="box3">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Exemplo@gmail.com">
+                        </div>
                     </div>
-                </div>
 
-            </div>
+                    <div class="box4">
+                        <label for="endereço">Endereço</label>
+                        <input type="text" name="endereço" id="endereço" placeholder="Rua">
+                        <input type="text" name="endereço" id="endereço" placeholder="Complemento">
 
-        </div>
-    </form>
+                        <div>
+                            <input type="text" name="endereço" id="endereço" placeholder="Cidade">
+                            <input type="text" name="endereço" id="endereço" placeholder="Município">
+                        </div>
+                        <input type="number" name="endereço" id="cep" placeholder="Cep: 000000-00">
+                    </div>
 
-    <footer>Agradecimentos de Anthony Passinhos</footer>
+
+                </form>
+            </section>
+        </section>
+
+        <section class="back-box2">
+            <section class="content2">
+                <h2>Escolha sua classe</h2>
+            </section>
+        </section>
+    </main>
+
+
+    <footer>&copy; 2015 Grupo Bem Paia</footer>
 </body>
 
 </html>

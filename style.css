@@ -1,6 +1,10 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: rpg;
+}
+:root{
+    --fundo-1:#ba9b69;
 }
 @font-face {
     font-family: 'rpg';
@@ -8,79 +12,80 @@
 }
 
 body {
+    height: 100vh;
     background-image: url(https://i.redd.it/yz6of53l6jyy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     display: flex;
     padding: 30px;
-    background-color: #ba9b69;
+    background-color: var(--fundo-1);
     opacity: 90%;
     border-bottom: 1px solid #2f0d07;
 }
 header h1{
-    font-family: rpg;
     color: #2f0d07;
 }
 
-form {
+main {
     margin: 2rem;
     display: flex;
     height: 28rem;
     justify-content: center;
+    flex: 1;
 }
 
-.content {
+.back-box {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    width: 25rem;
     height: 25rem;
     padding: 16px;
     border: 1px solid #2f0d07;
     background-color: #ba9b69;
-    box-shadow: 1px 1px 3px #2f0d07;
+    box-shadow: -1px 1px 3px #2f0d07;
     opacity: 90%;
 }
-.content .login p{
-    font-size: 14px;
-    font-family: rpg;
-}
-.content .login{
+
+.content{
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding: 35px;
     height: 100%;
+    padding: 20px;
     background-color: aliceblue;
     border: 1px solid #2f0d07;
 }
 
-.content h2{
+h2{
     font-size: 30px;
     text-align: center;
     color: #2f0d07;
-    font-family: rpg;
 }
-.box div{
-    padding: 12px 10px;
-}
-.box div input{
+
+input{
     background-color: aliceblue;
-    border: 0;
-    border-bottom: 1px solid #666;
+    display: flex;
+    border:0;
+    border-bottom: solid 1px #666;
+    flex-direction: column;
     outline: none;
-    font-size: 14px;
     width: 100%;
+    font-size: 14px;
     padding: 10px 1px;
 }
-.box a{
+a{
     text-decoration: none;
 }
 
 footer {
-    color: aliceblue;
+    background-color: #ba9b69;
+    text-align: center;
+    color: #2f0d07;
+    padding: .5rem;
 }

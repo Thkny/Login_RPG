@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="functions.js"></script>
     <title>RPG LOGIN</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="topvav">
-            <h1>A INCREDIBLE RPG</h1>
-        </div>
+      <h1>A INCREDIBLE RPG</h1>
     </header>
 
-    <form>
-        <div class="content">
-            <div class="login">
-                <h2>LOGIN</h2>
-                <div class="box">
-                    <div>
-                        <input type="email" placeholder="Email">
-                    </div>
-                    <div>
-                        <input type="password" placeholder="Senha">
-                    </div>
-                    
-                    
-                </div>
-                <p>não possui um cadastro? <a href="./CadastroRPG/index.html">Cadastre-se!</a></p>
-            </div>
-        </div>
-    </form>
+    <main>
+        <section class="back-box">
+            <section class="content">
+                <h2>Login</h2>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Exemple@gmail.com">
 
-    <hr>
-    <footer>Agradecimentos de Anthony Passinhos</footer>
-</body>
+                    <label for="Senha">Senha</label>
+                    <input type="password" name="Senha" id="Senha" placeholder="Password">
+                </form>
+                <span>
+                    Não possui cadastro? <a href="./CadastroRPG/index.html">Cadastre-se!</a>
+                </span>
+            </section>
+        </section>
+    </main>
 
+    <footer>&copy; 2023 Grupo Bem Paia</footer>
+  </body>
 </html>
