@@ -32,7 +32,7 @@ h1 {
 main {
     margin: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .back-box2 {
@@ -105,7 +105,8 @@ main {
     width: 230px;
     padding-bottom: 30px;
 }
-.box2 input::-webkit-inner-spin-button{
+
+.box2 input::-webkit-inner-spin-button {
     appearance: none;
 }
 
@@ -116,20 +117,24 @@ main {
     width: 230px;
     padding-bottom: 30px;
 }
-.box4{
+
+.box4 {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 230px;
 }
-.box4 div{
+
+.box4 div {
     gap: 20px;
     display: flex;
 }
-.box4 div input{
+
+.box4 div input {
     width: 140px;
 }
-.box4 input::-webkit-inner-spin-button{
+
+.box4 input::-webkit-inner-spin-button {
     appearance: none;
 }
 
@@ -141,6 +146,30 @@ input {
     border-bottom: solid 1px #666;
     flex-direction: column;
     outline: none;
+}
+
+button {
+    position: relative;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+button span {
+    width: 9rem;
+    display: block;
+    position: relative;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: aliceblue;
+    background: #929292;
+    top: 13px;
+}
+
+button:hover {
+    filter: brightness(110%);
+    transform: translateY(-2px);
 }
 
 
