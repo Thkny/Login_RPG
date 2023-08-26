@@ -32,12 +32,7 @@ h1 {
 main {
     margin: 2rem;
     display: flex;
-    justify-content: space-between;
-}
-/* as tags que tiverem "required vão ficar vermelhas por padrao */
-
-input:invalid {
-    border-bottom: solid 2px red ; 
+    justify-content: space-evenly;
 }
 
 .back-box2 {
@@ -151,6 +146,30 @@ input {
     border-bottom: solid 1px #666;
     flex-direction: column;
     outline: none;
+}
+
+button {
+    position: relative;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+button span {
+    width: 9rem;
+    display: block;
+    position: relative;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: aliceblue;
+    background: #929292;
+    top: 13px;
+}
+
+button:hover {
+    filter: brightness(110%);
+    transform: translateY(-2px);
 }
 
 
