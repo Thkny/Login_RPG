@@ -34,6 +34,11 @@ main {
     display: flex;
     justify-content: space-between;
 }
+/* as tags que tiverem "required vão ficar vermelhas por padrao */
+
+input:invalid {
+    border-bottom: solid 2px red ; 
+}
 
 .back-box2 {
     border-radius: 5px;
@@ -105,7 +110,8 @@ main {
     width: 230px;
     padding-bottom: 30px;
 }
-.box2 input::-webkit-inner-spin-button{
+
+.box2 input::-webkit-inner-spin-button {
     appearance: none;
 }
 
@@ -116,20 +122,24 @@ main {
     width: 230px;
     padding-bottom: 30px;
 }
-.box4{
+
+.box4 {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 230px;
 }
-.box4 div{
+
+.box4 div {
     gap: 20px;
     display: flex;
 }
-.box4 div input{
+
+.box4 div input {
     width: 140px;
 }
-.box4 input::-webkit-inner-spin-button{
+
+.box4 input::-webkit-inner-spin-button {
     appearance: none;
 }
 
