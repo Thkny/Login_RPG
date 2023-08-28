@@ -152,11 +152,12 @@ button {
     position: relative;
     border: none;
     background: transparent;
+    padding: 0;
     cursor: pointer;
     touch-action: manipulation;
 }
 
-button span {
+button .enviar {
     width: 9rem;
     display: block;
     position: relative;
@@ -166,12 +167,31 @@ button span {
     background: #929292;
     top: 13px;
 }
-
-button:hover {
+button .voltar {
+    width: 9rem;
+    display: block;
+    position: relative;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: #2f0d07;
+    background-color: #ba9b69;
+    top: 13px;
+}
+.enviar:hover {
     filter: brightness(110%);
     transform: translateY(-2px);
 }
 
+.voltar:hover {
+    filter: brightness(110%);
+    transform: translateY(-2px);
+}
+
+.butao{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 
 
