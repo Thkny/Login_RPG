@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: rpg;
+}
+
+:root {
+    --fundo-1: #ba9b69;
+}
+
+@font-face {
+    font-family: 'rpg';
+    src: url(../fonts/Middleearth-ao6m.ttf) format('truetype');
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://i.redd.it/yz6of53l6jyy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    background-color: var(--fundo-1);
+    opacity: 90%;
+    border-bottom: 1px solid #2f0d07;
+}
+
+h1 {
+    color: #2f0d07;
+}
+
+main {
+    margin: 2rem;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.back-box {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 33rem;
+    padding: 16px;
+    border: 1px solid #2f0d07;
+    background-color: #ba9b69;
+    box-shadow: -1px 1px 3px #2f0d07;
+    opacity: 90%;
+}
+
+.content {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 30rem;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid #2f0d07;
+    overflow: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #2f0d07;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+a{
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid #2f0d07;
+    width: 5rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+a:hover{
+    filter: brightness(110%);
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #ba9b69;
+    text-align: center;
+    color: #2f0d07;
+    padding: .5rem;
+}
