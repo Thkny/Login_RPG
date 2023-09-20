@@ -56,8 +56,9 @@ main {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
     height: 100%;
+    width: 25rem;
     padding: 20px;
     background-color: aliceblue;
     border: 1px solid #2f0d07;

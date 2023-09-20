@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: rpg;
+}
+
+@font-face {
+    font-family: 'rpg';
+    src: url(fonts/Middleearth-ao6m.ttf) format('truetype');
+}
+
+body {
+    background-image: url(https://i.redd.it/yz6of53l6jyy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    background-color: #ba9b69;
+    opacity: 80%;
+    border-bottom: 1px solid black;
+}
+
+main {
+    margin: 2rem;
+    display: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 29rem;
+    padding: 16px;
+    border: 1px solid black;
+    background-color: #ba9b69;
+    box-shadow: 1px 1px 3px black;
+    opacity: 90%;
+    gap: 6px;
+}
+
+.content-box div,
+.content-box3 div {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.content-box2 .box2 {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+.content-box div,
+.content-box2 div {
+    width: 100%;
+    height: 100%;
+}
+
+.content-box3 #um {
+    width: 35%;
+    height: 100%;
+}
+
+.content-box3 #dois {
+    width: 65%;
+    height: 100%;
+}
+
+/*     !!!!! CAIXAS DAS DIVS     !!!!!*/
+.content-box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 60%;
+    gap: 6px;
+}
+
+.content-box2 {
+    display: flex;
+    width: 45%;
+    height: 38.67%;
+    gap: 6px;
+}
+
+.content-box3 {
+    display: flex;
+    width: 54.3%;
+    height: 100%;
+    gap: 6px;
+}
+
+/*     !!!!! CAIXAS DAS DIVS     !!!!!*/
+.content-box h3{
+    padding: 1% 0px 0px 2%;
+}
+.content-box div {
+    display: flex;
+    flex-direction: column;
+}
+.content-box textarea{
+    background-color: aliceblue;
+    padding: 1% 2%;
+    resize: none;
+    height: 60%;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.content-box textarea::-webkit-scrollbar {
+    width: 5px;
+}
+  
+.content-box textarea::-webkit-scrollbar-track {
+    background: #ddd;
+}
+.content-box textarea::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 10px;
+}
+
+.content-box2 .box2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content-box2 .box2 img{
+    padding-left: 5%;
+}
+
+.content-box2 .box2 .vida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: none;   
+}
+
+.content-box2 .box2 .escudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+}
+.content-box2 .box2 button{
+    background-color: #ccd;
+    border: solid 1px #aaa;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 30px;
+    height: 10%;
+}
+
+.content-box2 .box2 button:active{
+    background-color: #777;
+}
+
+.content-box2 .box2 span{
+    font-size: 20px;
+    margin: 15px;
+}
+
+#um{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture_input {
+    display: none;
+}
+
+.picture {
+    width: 95%;
+    height: 95%;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+}
+
+.picture:hover {
+    color: #777;
+    background: #ccc;
+}
+
+.picture {
+    max-width: 100%;
+}
+
+
+@media (max-width:600px) {
+
+    .content {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        height: 40rem;
+    }
+
+    .content-box {
+        width: 100%;
+        height: 50%;
+    }
+
+    .content-box2 {
+        width: 100%;
+        height: 30%;
+    }
+
+    .content-box3 {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+footer {
+    background-color: #ba9b69;
+    text-align: center;
+    color: #2f0d07;
+    padding: .5rem;
+}

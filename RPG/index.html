@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ficha-RPG</title>
+</head>
+
+<body>
+    <header>
+        <div class="topvav">
+            <h1>Ficha RPG</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <article class="content">
+
+            <div class="content-box">
+                <div>
+                    <h3>LORE</h3>
+                    <textarea placeholder="Insira aqui a sua lore"></textarea>
+                </div>
+                <div>
+                    <h3>ALGUMA COISA</h3>
+                    <textarea placeholder="Aqui eu sei lá o que vai ser"></textarea>
+                </div>
+            </div>
+
+            <div class="content-box2">
+                <div class="box2">
+                    <img src="./images/heart.png" width="50%" alt="vida">
+
+                    <div class="vida">
+                        <button onclick="add()"></button>
+                        <span id="print">0</span>
+                        <button onclick="sub()"></button>
+                    </div>
+                </div>
+                <div class="box2">
+                    <img src="./images/escudo.png" width="45%" alt="escudo">
+                    <div class="escudo">
+                        <button type="button"></button>
+                        <span>30%</span>
+                        <button type="button"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content-box3">
+                <div id="um">
+                    <span>coming <br> soon!</span>
+                </div>
+
+
+                <div id="dois">
+                    <label class="picture" for="picture_input">
+                        <span></span>
+                    </label>
+                    <input type="file" name="picture_input" id="picture_input">
+                </div>
+
+
+            </div>
+        </article>
+
+    </main>
+
+    <footer>&copy; 2023 Agradecimentos de Anthony Passinhos</footer>
+
+    <script src="functions.js"></script>
+</body>
+
+</html>
