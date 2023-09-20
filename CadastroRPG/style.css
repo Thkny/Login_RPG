@@ -72,14 +72,14 @@ main {
 }
 
 .box1 input {
-    width: 140px;
+    width: 230px;
 }
 
 .box2 {
     display: flex;
     flex-direction: column;
     gap: 9px;
-    width: 230px;
+    width: 280px;
     padding-bottom: 30px;
 }
 
@@ -91,7 +91,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 9px;
-    width: 230px;
+    width: 280px;
     padding-bottom: 30px;
 }
 
@@ -99,7 +99,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 230px;
+    width: 280px;
 }
 
 .box4 div {
