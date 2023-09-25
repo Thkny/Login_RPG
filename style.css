@@ -79,6 +79,14 @@ input{
     font-size: 14px;
     padding: 10px 1px;
 }
+
+#inputo{
+    width: 20%;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: none;
+}
+
 a{
     text-decoration: none;
 }

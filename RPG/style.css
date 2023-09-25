@@ -96,6 +96,9 @@ main {
 .content-box h3{
     padding: 1% 0px 0px 2%;
 }
+.content-box3 h2{
+    padding: 1% 0px 0px 2%;
+}
 .content-box div {
     display: flex;
     flex-direction: column;
@@ -165,12 +168,46 @@ main {
     font-size: 20px;
     margin: 15px;
 }
-
 #um{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+#um span{
+    font-size: 1.4rem;
+    display: flex;
     justify-content: center;
 }
+
+#um ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#um li{
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#um div{
+    border: none;
+
+}
+#um button{
+    background-color: #ccd;
+    border: solid 1px #aaa;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 16px;
+    height: 11px;
+}
+
+#um button:active{
+    background-color: #777;
+}
+
 
 #dois {
     display: flex;

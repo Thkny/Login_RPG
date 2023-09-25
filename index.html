@@ -16,19 +16,25 @@
         <section class="back-box">
             <section class="content">
                 <h2>Login</h2>
-                <form>
+                <form id="cadastro1">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="Exemple@gmail.com">
+                    <input type="text" name="email" id="email" placeholder="Exemple@gmail.com" required>
 
                     <label for="Senha">Senha</label>
-                    <input type="password" name="Senha" id="Senha" placeholder="Password">
+                    <input type="password" name="Senha" id="senha" placeholder="Password" required>
+
+                    <div>
+                      <input id="inputo" type="submit" value="Enviar">
+                    </div>
                 </form>
                 <span>
                     Não possui cadastro? <a href="./CadastroRPG/index.html">Cadastre-se!</a>
                 </span>
             </section>
+
         </section>
     </main>
+    <script src="functions.js"></script>
 
     <footer>&copy; 2023 Grupo Bem Paia</footer>
   </body>

@@ -28,18 +28,35 @@ inputFile.addEventListener("change", function (e) {
 
 
 let sla = 0;
+let coiso = '%' 
 
 function add() {
-    sla += 1;
+    sla += 10;
     update();
 }
 
 function sub() {
-    sla -= 1;
+    sla -= 10;
     update();
 }
 
 function update() {
-    document.getElementById("print").textContent = sla;
+    document.getElementById("print").textContent = sla + coiso;
+}
+
+let sla2 = 0;
+
+function add2() {
+    sla2 += 10;
+    update2();
+}
+
+function sub2() {
+    sla2 -= 10;
+    update2();
+}
+
+function update2() {
+    document.getElementById("print2").textContent = sla2 + coiso;
 }
 
